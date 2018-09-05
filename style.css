@@ -45,6 +45,7 @@ body {
   text-decoration: none;
   color: #0e4f1f;
   font-weight: bold;
+  padding: 3px 0;
 }
 
 .main-nav__item a:hover,
@@ -53,17 +54,27 @@ body {
   border-bottom: 5px solid white;
 }
 
-#product-overview {
-  background: red;
-  width: 300px;
-  margin: 10px;
-  padding: 10px;
-  height: 560px;
+.main-nav__item--cta a {
+  color: white;
+  background: #ff1b68;
+  padding: 8px 16px;
+  border-radius: 8px;
 }
 
-#product-overview h1 {
-  color: white;
+.main-nav__item--cta a:hover {
+  color: #ff1b68;
+  background: white;
+  border: none;
 }
+
+#product-overview {
+  background: url("https://cliffordgarstang.com/wp-content/uploads/2016/01/website-background-1.jpg");
+  width: 100%;
+  padding: 10px;
+  height: 528px;
+}
+
+
 
 .section-title {
   color: #2ddf5c;
