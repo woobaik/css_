@@ -180,3 +180,9 @@ body {
   border-radius: 50%;
   margin: auto;
 }
+
+.main-footer {
+  margin-top: 0px;
+  background: black;
+  color: white;
+}
